@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>登录</title>
+<style>
+    body{
+        margin: 0;
+        padding:0;
+        background-color: rgb(239,240,244);
+    }
+    header{
+        background-color: rgb(95,192,205);
+        color:white;
+        position: relative;
+        top:50%;
+        text-align: center;
+        padding:3%;
+    }
+    .fn1{
+        float: left;
+    }
+    .fn2{
+        display: inline;
+    }
+    .fn3{
+        float: right;
+    }
+    .tup{
+        vertical-align:middle;
+    }
+    .dengl input{
+        width: 80%;
+        border:0 solid white;
+        outline: none;
+        padding: 3% 0;
+        font-size: 3%;
+    }
+    form div{
+        background-color: white;
+        margin:2% 0 0 
+    }
+button{
+    background-color: rgb(95,192,205);
+    color:white;
+    width:100%;
+    border:0 solid rgb(95,192,205);
+    padding:3%;
+    font-size: 18px;
+}
+</style>
+</head>
+<body >
+    <header>
+        <div class="fn1">关闭</div>
+        <div class="fn2">登录</div>
+        <div class="fn3">注册</div>
+    </header>
+    <form action=" 333.php" method="GET">
+            <div>    
+                <aa class="tup"><input type="image" src="用户名.gif" alt="用户名" style="width: 9.2%;"></aa>
+                <aaa class="dengl"><input type="text" name="adm" placeholder="请输入手机号"></aaa>
+            </div>
+            <div >
+                <aa class="tup"><input type="image" src="密码.gif" alt="密码" style="width: 9.2%;"></aa>
+                <aaa class="dengl"><input type="password" name="sec" placeholder="请输入密码"></aaa>
+            </div>
+            <button type="submit" name="dl" value="登录">登  录</button>
+        </form>
+</body>
+</html>
